@@ -15,10 +15,45 @@ body{
     background-color: white;
     padding:24px 80px;
 }
-.nav-btn{
+span{
+    color: #FFA500;
+}
+.primary-btn{
     padding:17px 24px 17px 24px;
     border: none;
     border-radius: 10px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: medium;
+    font-weight: bold;
     background: linear-gradient(to right,#FFA500,#FFD447 );
+    opacity: 0.8;
+}
+
+
+/* ------Bannner Section---- */
+section{
+    width: 80%;
+    margin: 50px auto;
+    /* border: 2px solid black; */
+    padding: 40px;
+}
+.banner-container{
+    background-color:#E6EDF9;
+    border-radius: 10px;
+}
+.hero-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+    
+}
+.hadding-text{
+    text-align: center;
+}
+.hadding-text h1{
+    padding: 10px 0px;
+}
+.hadding-text p{
+    padding: 15px 0px;
 }
