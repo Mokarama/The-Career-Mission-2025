@@ -45,8 +45,7 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 2px solid red; */
-    
+  /* border: 2px solid red; */   
 }
 .hadding-text{
     text-align: center;
@@ -57,3 +56,46 @@ section{
 .hadding-text p{
     padding: 15px 0px;
 }
+
+/* -------------2nd Banner------ */
+.development-container{
+ /* border: 2px solid blue; */
+}
+.dev-info{
+    /* border: 2px solid red;   */
+    text-align: center; 
+}
+.dev-info h1{
+  padding: 10px;
+}
+.dev-info p{
+   padding-bottom: 30px;
+}
+.world-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E6EDF9;
+    border-radius: 15px;
+    padding: 10px 5px;
+   /* border: 2px solid greenyellow; */
+}
+.world-info{
+  /* background: #d7b5b5; */
+  width: 60%;
+  padding: 40px;
+}
+.world-info h3{
+  padding:10px 0px;
+}
+.world-info p{
+   padding:0px 0px 15px 0px ;
+}
+.developer-img{
+  /* background: bisque; */
+  width: 40%;
+}
+.developer-img img{
+
+}
+
