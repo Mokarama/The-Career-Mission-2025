@@ -33,6 +33,12 @@ span{
     background: linear-gradient(to right,#FFA500,#FFD447 );
     opacity: 0.8;
 }
+.primary-btn:hover{
+  background: blueviolet;
+  color: white;
+  cursor: pointer;
+  transform: translateY(-5px);
+}
 
 
 /* ------Bannner Section---- */
@@ -63,6 +69,7 @@ section{
 }
 .hadding-text p{
     padding: 15px 0px;
+    
 }
 
 /* Why Web Development Section styling */
@@ -108,29 +115,52 @@ section{
 .developer-img img{
 
 }
+/* ====Vedio Section styling===== */
+    .video-container{
+       border: 2px solid blue;
+    }
+    .video-container p{
+      margin-bottom: 20px;
+    }
+    .video{
+          display: flex;
+          justify-content: center;
+          margin: 10px 100px; 
+          overflow: hidden;
+          padding: 20px 0px;
+          border: 2px solid rgba(143, 140, 140, 0.401);
+          border-radius: 15px;
+       
+    }
+    #youtube-video{
+       /* margin: 0 auto; */
+      border: 2px solid red;
+      border-radius: 15px;
+    }
 /* --------------Skill container styling------- */
 .skill-container{
   /* border: 2px solid red; */
 }
  .skill-card-container{
     display: flex;
-    /* justify-content: space-around; */
-     justify-content:space-between;
-    align-items:center;
-     /* gap: 50px; */
-     /* border: 2px solid black; */
-   
+    justify-content:space-between;
+    align-items:center;  
  } 
   .skill-card{
     background: linear-gradient(to right,#E6EDF9,#9DE5FF);
     border-radius: 20px;
     padding: 40px 100px;
-    text-align:left;
-    transition:0.3s;
-   
-     /* margin: 30px; */
+    text-align:center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       /* border: 2px solid yellowgreen; */
      
+  }
+  .skill-card img, h3, a{
+    padding-bottom: 5px;
+  }
+  .skill-card:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
   }
  
 /* ----Footer styling -----*/

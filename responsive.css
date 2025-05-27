@@ -70,6 +70,13 @@
   height: auto;
   border: 2px dotted yellowgreen;
 }
+/* ====Vedio Section responsive===== */
+ 
+    .video{
+          margin: 10px 20px; 
+          overflow: hidden;  
+    }
+    
 
 /* --------------Skill container responsive------- */
 .skill-card-container{
@@ -93,34 +100,11 @@
     padding:24px 60px;
 }
 
-
-  
-   
-
-
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**********************************/
 
 /*-------Mobile Device----*/
 /* ===navbar responsive==== */
@@ -184,15 +168,23 @@
 .developer-img img{
   width: 90%;
   height: auto;
-  border: 2px dotted red;
 }
 
+/* ====Vedio Section responsive===== */
+ 
+    .video{
+      padding:20px 10px;
+      overflow: hidden; 
+    }
+    
+    #youtube-video{
+      width: 95%; 
+      /* overflow: hidden; */
+      height:300px; 
+    }
 /* --------------Skill container responsive------- */
  .skill-card-container{
-    flex-direction: column;
-    border: 2px solid red;
-    
-   
+    flex-direction: column; 
  } 
   .skill-card{
     width: 90%;
