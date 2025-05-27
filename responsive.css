@@ -1,230 +1,234 @@
-@media screen and (min-width: 1200px) {
-    
-}
+
+
 
 /*-------Tablet Device----*/
-
-/* ===navbar responsive==== */
 @media screen and (max-width: 1024px) {
-    .navbar{
-    padding:24px 10px;
-   
-}
+  /* ===navbar responsive==== */
+  .navbar {
+    padding: 24px 10px;
+  }
 
-.navbar h4{
-  font-size: 20px;
-}
-.primary-btn{
-    padding:10px 12px 10px 12px;
+  .navbar h4 {
+    font-size: 20px;
+    margin-left: 80px;
+  }
+  .navbar button {
+    margin-right: 70px;
+  }
+  .primary-btn {
+    padding: 10px 12px 10px 12px;
     font-size: 14px;
-    /* font-weight: bold; */
-    background: linear-gradient(to right,#FFA500,#FFD447 );
+    background: linear-gradient(to right, #ffa500, #ffd447);
     opacity: 0.8;
-}
-/* ==Banner responsive=== */
- section{
+  }
+  /* ==Banner responsive=== */
+  section {
     width: 90%;
     padding: 30px 0px;
- }
-.banner-container{
-  padding: 20px;
-   
-}
-.hero-img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* border: 2px solid red; */   
-}
-.hadding-text{
+  }
+  .banner-container {
+    padding: 20px;
+  }
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hadding-text {
     text-align: center;
-}
-.hadding-text h1{
+  }
+  .hadding-text h1 {
     font-size: 28px;
-}
-.hadding-text p{
-  font-size: 18px;
-}
+  }
+  .hadding-text p {
+    font-size: 18px;
+    margin: 0px 150px;
+  }
 
-/* Why Web Development Section responsive */
+  /* Why Web Development Section responsive */
 
-.world-container{
+  .world-container {
     flex-direction: column-reverse;
     text-align: center;
     padding: 20px;
-    border: 2px solid red;
-    
-}
-.world-info .developer-img{
- border: 2px solid blue;
-  width: 100%;
-}
+  }
+  .world-info .developer-img {
+    width: 100%;
+  }
 
-.world-info{
-  padding: 20px;
-}
+  .world-info {
+    padding: 20px;
+  }
 
+  .dev-info p {
+    margin: 0px 100px;
+  }
+  .developer-img{
+    width: 100%;
+    height: auto;
+  }
+  /* ====Vedio Section responsive===== */
 
-.developer-img img{
-  width: 100%;
-  height: auto;
-  border: 2px dotted yellowgreen;
-}
-/* ====Vedio Section responsive===== */
- 
-    .video{
-          margin: 10px 20px; 
-          overflow: hidden;  
-    }
-    
+  .video {
+    margin: 10px 20px;
+    overflow: hidden;
+  }
 
-/* --------------Skill container responsive------- */
-.skill-card-container{
+  /* --------------Skill container responsive------- */
+  .skill-card-container {
     flex-direction: column;
-    border: 2px solid red;
-    
-   
- } 
-  .skill-card{
+  }
+  .skill-card {
     width: 90%;
     text-align: center;
     margin-bottom: 30px;
     padding: 50px 5px;
-     
   }
-
 
   /* ===footerresponsive=== */
 
-.footer-area{
-    padding:24px 60px;
+  .footer-area {
+    padding: 24px 60px;
+  }
+  .footer-area p {
+    margin-left: 60px;
+  }
+
+  .social-icons {
+    margin-right: 60px;
+  }
 }
 
-}
 
 
-
-/**********************************/
 
 /*-------Mobile Device----*/
-/* ===navbar responsive==== */
+
 @media screen and (max-width: 640px) {
-    .navbar{
-    flex-direction: column;
-    justify-content: center;
-    padding:24px 10px;
-   
-}
+   /* ===navbar responsive==== */
+  .navbar {
+    /* flex-direction: column;
+    justify-content: center; */
+    padding: 24px 10px;
+  }
 
-.navbar h4{
-  font-size: 20px;
-  margin: 10px 0px;
-}
-.primary-btn{
-    padding:10px 60px;
+  .navbar h4 {
+    font-size: 20px;
+    margin:5px 25px;
+  }
+  .navbar button {
+    margin-right: 10px;
+  }
+  .primary-btn {
+    padding: 10px 20px;
     font-size: 16px;
-    /* font-weight: bold; */
-    /* width: 50%; */
-}
+  }
+  #resume-btn {
+    margin: 0px 20px;
+    font-size: 16px;
+  }
 
-/* ==Banner responsive=== */
-  .banner-container{
+  /* ==Banner responsive=== */
+  .banner-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 20px 10px;
-
   }
-  .hero-img{
+  .hero-img {
     width: 80%;
     height: auto;
-
   }
-  .hadding-text h1{
+  .hadding-text h1 {
     font-size: 22px;
   }
 
-  .hadding-text p{
+  .hadding-text p {
     font-size: 16px;
+    margin: 0px;
   }
-  
+
   /* Why Web Development Section responsive */
 
-  .world-container{
+  .world-container {
     flex-direction: column-reverse;
-    padding:15px 10px;
-    border: 2px solid rgb(119, 195, 150);
-    
-}
-.world-info h3{
-  font-size: 20px;
-}  
+    padding: 15px 10px;
+  }
+  .world-info h3 {
+    font-size: 20px;
+  }
 
-.world-info p{
-  font-size: 16px;
-}  
+  .world-info p {
+    font-size: 16px;
+    margin: 0px;
+  }
+  .dev-info p {
+    margin: 0px;
+  }
+  .developer-img{
+    width: 100%;
+    height: auto;
+  }
 
-.developer-img img{
-  width: 90%;
-  height: auto;
-}
+  /* ====Vedio Section responsive===== */
 
-/* ====Vedio Section responsive===== */
- 
-    .video{
-      padding:20px 10px;
-      overflow: hidden; 
-    }
-    
-    #youtube-video{
-      width: 95%; 
-      /* overflow: hidden; */
-      height:300px; 
-    }
-/* --------------Skill container responsive------- */
- .skill-card-container{
-    flex-direction: column; 
- } 
-  .skill-card{
+  .video {
+    padding: 20px 10px;
+    overflow: hidden;
+  }
+
+  #youtube-video {
+    width: 95%;
+    height: 300px;
+  }
+  /* --------------Skill container responsive------- */
+  .skill-card-container {
+    flex-direction: column;
+  }
+  .skill-card {
     width: 90%;
     text-align: center;
     margin-bottom: 30px;
     padding: 50px 5px;
-     
   }
 
-  .skill-card img{
+  .skill-card img {
     width: 60px;
     height: 60px;
   }
 
-  .skill-card h3{
+  .skill-card h3 {
     font-size: 18px;
   }
-  .learn-more{
+  .learn-more {
     font-size: 14px;
   }
 
   /* ----Footer responsive-----*/
 
-.footer-area{
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   gap: 15px;
-   background-color: white;
-   padding:20px 20px;
-}
+  .footer-area {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    background-color: white;
+    padding: 20px 20px;
+  }
 
-.footer-area p{
-  font-weight: 16px;
-}
+  .footer-area p {
+    font-weight: 16px;
+    margin-left: 0px;
+  }
 
-.social-icons a{
-   font-size: 30px;
-   padding: 8px;
-   border-radius:50px;
-}
+  .social-icons a {
+    font-size: 30px;
+    padding: 8px;
+    border-radius: 50px;
+  }
+
+  .social-icons {
+    margin-right: 0px;
+  }
 }
