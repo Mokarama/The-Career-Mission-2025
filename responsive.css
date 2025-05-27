@@ -46,6 +46,30 @@
   font-size: 18px;
 }
 
+/* Why Web Development Section responsive */
+
+.world-container{
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid red;
+    
+}
+.world-info .developer-img{
+ border: 2px solid blue;
+  width: 100%;
+}
+
+.world-info{
+  padding: 20px;
+}
+
+
+.developer-img img{
+  width: 100%;
+  height: auto;
+  border: 2px dotted yellowgreen;
+}
 
 }
 
@@ -114,4 +138,36 @@
     font-size: 16px;
   }
   
+  /* Why Web Development Section responsive */
+
+  .world-container{
+    flex-direction: column-reverse;
+    text-align: center;
+    padding:15px 10px;
+    border: 2px solid rgb(119, 195, 150);
+    
+}
+.world-info h3{
+  font-size: 20px;
+}  
+
+.world-info p{
+  font-size: 16px;
+}  
+/* .world-info .developer-img{
+ border: 2px solid blue;
+  width: 100%;
+}
+
+.world-info{
+  padding: 20px;
+} */
+
+
+.developer-img img{
+  width: 90%;
+  height: auto;
+  border: 2px dotted red;
+}
+
 }

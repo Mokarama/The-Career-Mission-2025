@@ -39,7 +39,7 @@ span{
 section{
     width: 80%;
     margin: 40px auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* padding: 40px; */
     max-width: 1200px;
     padding: 40px 0px;
@@ -65,7 +65,7 @@ section{
     padding: 15px 0px;
 }
 
-/* -------------2nd Banner------ */
+/* Why Web Development Section styling */
 .development-container{
  /* border: 2px solid blue; */
 }
@@ -118,7 +118,7 @@ section{
      justify-content:space-between;
     align-items:center;
      /* gap: 50px; */
-     border: 2px solid black;
+     /* border: 2px solid black; */
    
  } 
   .skill-card{
@@ -129,7 +129,7 @@ section{
     transition:0.3s;
    
      /* margin: 30px; */
-      border: 2px solid yellowgreen;
+      /* border: 2px solid yellowgreen; */
      
   }
  
