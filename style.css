@@ -13,7 +13,8 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding:24px 80px;
+    padding:24px 160px;
+   
 }
 span{
     color: #FFA500;
@@ -33,9 +34,11 @@ span{
 /* ------Bannner Section---- */
 section{
     width: 80%;
-    margin: 50px auto;
-    /* border: 2px solid black; */
-    padding: 40px;
+    margin: 40px auto;
+    border: 2px solid black;
+    /* padding: 40px; */
+    max-width: 1200px;
+    padding: 40px 0px;
 }
 .banner-container{
     background-color:#E6EDF9;
@@ -77,13 +80,14 @@ section{
     align-items: center;
     background-color: #E6EDF9;
     border-radius: 15px;
-    padding: 10px 5px;
-   /* border: 2px solid greenyellow; */
+    padding: 5px 5px;
+    border: 2px solid greenyellow;
+    
 }
 .world-info{
   /* background: #d7b5b5; */
   width: 60%;
-  padding: 40px;
+  padding:40px;
 }
 .world-info h3{
   padding:10px 0px;
@@ -94,8 +98,57 @@ section{
 .developer-img{
   /* background: bisque; */
   width: 40%;
+  
 }
 .developer-img img{
 
 }
+/* --------------Skill container styling------- */
+.skill-container{
+  /* border: 2px solid red; */
+}
+ .skill-card-container{
+    display: flex;
+    /* justify-content: space-around; */
+     justify-content:space-between;
+    align-items:center;
+     /* gap: 50px; */
+     border: 2px solid black;
+   
+ } 
+  .skill-card{
+    background: linear-gradient(to right,#E6EDF9,#9DE5FF);
+    border-radius: 20px;
+    padding: 40px 100px;
+    text-align:left;
+    transition:0.3s;
+   
+     /* margin: 30px; */
+      border: 2px solid yellowgreen;
+     
+  }
+ 
+/* ----Footer styling -----*/
+.footer-container{
+  padding: 40px 0px;
+}
+.footer-area{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding:24px 160px;
+}
 
+.social-icons{
+    margin: 10px;
+   /* border: 2px solid blue; */
+}
+
+.social-icons a{
+   /* border: 2px solid black; */
+   /* background-color: white; */
+   font-size: 30px;
+   padding: 5px;
+   border-radius:50px;
+}
