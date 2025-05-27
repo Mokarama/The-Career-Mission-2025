@@ -145,14 +145,21 @@ section{
     padding:24px 160px;
 }
 
+.footer-area p{
+  font-weight: bold;
+}
 .social-icons{
     margin: 10px;
    /* border: 2px solid blue; */
+   
 }
-
+.social-icons #github{
+  color: black;
+}
+.social-icons #facebook, #linkedin{
+  color:#1285b7;
+}
 .social-icons a{
-   /* border: 2px solid black; */
-   /* background-color: white; */
    font-size: 30px;
    padding: 5px;
    border-radius:50px;

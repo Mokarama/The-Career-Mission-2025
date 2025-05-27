@@ -89,7 +89,15 @@
 
   /* ===footerresponsive=== */
 
+.footer-area{
+    padding:24px 60px;
+}
+
+
   
+   
+
+
 }
 
 
@@ -205,4 +213,26 @@
   .learn-more{
     font-size: 14px;
   }
+
+  /* ----Footer responsive-----*/
+
+.footer-area{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   gap: 15px;
+   background-color: white;
+   padding:20px 20px;
+}
+
+.footer-area p{
+  font-weight: 16px;
+}
+
+.social-icons a{
+   font-size: 30px;
+   padding: 8px;
+   border-radius:50px;
+}
 }
