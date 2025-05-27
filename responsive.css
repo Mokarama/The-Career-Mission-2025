@@ -12,7 +12,7 @@
 }
 
 .navbar h4{
-  font-size: 16px;
+  font-size: 20px;
 }
 .primary-btn{
     padding:10px 12px 10px 12px;
@@ -23,8 +23,29 @@
 }
 /* ==Banner responsive=== */
  section{
-    width: 100%;
+    width: 90%;
+    padding: 30px 0px;
  }
+.banner-container{
+  padding: 20px;
+   
+}
+.hero-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */   
+}
+.hadding-text{
+    text-align: center;
+}
+.hadding-text h1{
+    font-size: 28px;
+}
+.hadding-text p{
+  font-size: 18px;
+}
+
 
 }
 
@@ -61,13 +82,36 @@
 }
 
 .navbar h4{
-  font-size: 16px;
+  font-size: 20px;
   margin: 10px 0px;
 }
 .primary-btn{
     padding:10px 60px;
-    font-size: 14px;
+    font-size: 16px;
     /* font-weight: bold; */
-    width: 100%;
+    /* width: 50%; */
 }
+
+/* ==Banner responsive=== */
+  .banner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+
+  }
+  .hero-img{
+    width: 80%;
+    height: auto;
+
+  }
+  .hadding-text h1{
+    font-size: 22px;
+  }
+
+  .hadding-text p{
+    font-size: 16px;
+  }
+  
 }
